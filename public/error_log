@@ -1,0 +1,24 @@
+[06-Oct-2023 18:20:48 UTC] PHP Warning:  Uncaught ErrorException: require(../../../../src/Exception.php): failed to open stream: No such file or directory in /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/app/Http/Controllers/PlaidController.php:322
+Stack trace:
+#0 /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/app/Http/Controllers/PlaidController.php(322): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(../../....', '/home/s32ruy7jf...', 322, Array)
+#1 /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/app/Http/Controllers/PlaidController.php(322): require()
+#2 /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/app/Http/Controllers/PlaidController.php(178): App\Http\Controllers\PlaidController->dealFailedEmail()
+#3 /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\PlaidController->checkPlaidToken(Object(Illuminate\Http\Request))
+#4 /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/vendor/laravel/ in /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/app/Http/Controllers/PlaidController.php on line 322
+[06-Oct-2023 18:20:48 UTC] PHP Fatal error:  App\Http\Controllers\PlaidController::dealFailedEmail(): Failed opening required '../../../../src/Exception.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/app/Http/Controllers/PlaidController.php on line 322
+[06-Oct-2023 18:22:14 UTC] PHP Warning:  Uncaught ErrorException: require(../../../../src/Exception.php): failed to open stream: No such file or directory in /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/app/Http/Controllers/PlaidController.php:322
+Stack trace:
+#0 /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/app/Http/Controllers/PlaidController.php(322): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(../../....', '/home/s32ruy7jf...', 322, Array)
+#1 /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/app/Http/Controllers/PlaidController.php(322): require()
+#2 /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/app/Http/Controllers/PlaidController.php(178): App\Http\Controllers\PlaidController->dealFailedEmail()
+#3 /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\PlaidController->checkPlaidToken(Object(Illuminate\Http\Request))
+#4 /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/vendor/laravel/ in /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/app/Http/Controllers/PlaidController.php on line 322
+[06-Oct-2023 18:22:14 UTC] PHP Fatal error:  App\Http\Controllers\PlaidController::dealFailedEmail(): Failed opening required '../../../../src/Exception.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/app/Http/Controllers/PlaidController.php on line 322
+[06-Oct-2023 18:25:10 UTC] PHP Warning:  Uncaught ErrorException: require(../../../../src/Exception.php): failed to open stream: No such file or directory in /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/app/Http/Controllers/PlaidController.php:322
+Stack trace:
+#0 /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/app/Http/Controllers/PlaidController.php(322): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(../../....', '/home/s32ruy7jf...', 322, Array)
+#1 /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/app/Http/Controllers/PlaidController.php(322): require()
+#2 /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/app/Http/Controllers/PlaidController.php(178): App\Http\Controllers\PlaidController->dealFailedEmail()
+#3 /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\PlaidController->checkPlaidToken(Object(Illuminate\Http\Request))
+#4 /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/vendor/laravel/ in /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/app/Http/Controllers/PlaidController.php on line 322
+[06-Oct-2023 18:25:10 UTC] PHP Fatal error:  App\Http\Controllers\PlaidController::dealFailedEmail(): Failed opening required '../../../../src/Exception.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/s32ruy7jfq53/public_html/sandbox.mypayvantage.com/app/Http/Controllers/PlaidController.php on line 322

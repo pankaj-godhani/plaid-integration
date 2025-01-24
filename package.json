@@ -1,0 +1,33 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "watch-css": "tailwindcss -i ./resources/css/app.css -o ./public/css/app.css --watch",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@prettier/plugin-php": "0.18.9",
+        "autoprefixer": "10.4.8",
+        "axios": "^0.21",
+        "flowbite": "1.5.2",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "8.4.14",
+        "prettier": "2.7.1",
+        "prettier-plugin-tailwindcss": "0.1.13",
+        "resolve-url-loader": "5.0.0",
+        "sass": "1.54.0",
+        "sass-loader": "13.0.2",
+        "tailwindcss": "3.1.7"
+    },
+    "dependencies": {
+        "alpinejs": "3.10.3",
+        "jquery": "3.6.3",
+        "laravel-mix-blade-reload": "3.0.0"
+    }
+}

@@ -1,0 +1,21 @@
+ip: 192.168.10.10
+memory: 2048
+cpus: 2
+provider: virtualbox
+authorize: ~\.ssh\north-two-five.pub
+keys:
+  - ~\.ssh\north-two-five
+folders:
+  - map: 'D:\Alluxi\Payvantage\payvantage-gateway'
+    to: /home/vagrant/code/payvantage-gateway
+sites:
+  - map: homestead.test
+    to: /home/vagrant/code/payvantage-gateway/public
+databases:
+  - homestead
+features:
+  - mariadb: false
+  - ohmyzsh: false
+  - webdriver: false
+name: payvantage-gateway
+hostname: payvantage-gateway
